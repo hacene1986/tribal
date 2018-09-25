@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+<link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>TBB</title>
+</head>
+<body>
+<header>
+  <div id="sidebar">
+              <div class="toggle-btn" onclick="toggleSidebar()">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+              </div>
+              <ul>
+                  <li><a href="index.html">Acceuil</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="photos.html">Media</a></li>
+                  <li><a href="evenement.html">Evenements</a></li>
+                  <li><a href="espacepro.html">Espace PRO</a></li>
+                  <li><a href="form.php">Avis</a></li>
+
+              </ul>
+          </div>
+    </header>
+    <section class="container photo">
+      <h1><i class="fas fa-images"></i> ALBUM PHOTOS TBB</h1>
+      <a href="#"class="barre"><i class="fas fa-hand-point-down"></i> Afficher Toolbar</a>
+      <nav class="toolbar">
+      <button type="button" name="previous"id="slider-previous"><i class="fas fa-step-backward"></i></button>
+        <button type="button" name="play" id="slider-toggle"><i class="fas fa-play"></i></button>
+        <button type="button" name="next" id="next"><i class="fas fa-step-forward"></i></button>
+        <button type="button" name="alea" id="slider-random"><i class="fas fa-bars"></i></button>
+      </nav>
+      <div id="slider">
+          <article class="slider">
+              <img src="img/1.jpg" class="photos"alt="">
+          </article>
+    </div>
+    <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
+    <div class="flex">
+      <h2><i class="fas fa-video"></i> VIDEOS</h2>
+      <article class="video">
+          <div class="vid1">
+              <iframe width="350" height="315" src="https://www.youtube.com/embed/xvyC8ebCtTY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+            <div class="vid1">
+            <iframe width="350" height="315" src="https://www.youtube.com/embed/zk4hmIHRu5s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <div class="vid1">
+              <iframe width="350" height="315" src="https://www.youtube.com/embed/SrgqEwADwLc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+      </article>
+</div>
+  </section>
+  <hr>
+  <footer>
+    <p>Retrouvez-Nous sur les réseaux sociaux</p>
+    <div class="social">
+      <a href="#" class="facebook"><i class="fab fa-facebook-square"></i></a>
+      <a href="#" class="twitter"><i class="fab fa-twitter-square"></i></a>
+      <a href="#" class="insta"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="youtube"><i class="fab fa-youtube"></i></a>
+    </div>
+    <small>
+      <img src="img/tbb1.jpg" alt="tbb">
+      <p>Developed By HACENE KHERBOUCHE</p>
+    </small>
+  </footer>
+      <script src="app.js"></script>
+</body>
+</html>

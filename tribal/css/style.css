@@ -1,0 +1,684 @@
+*{
+  box-sizing: border-box;
+}
+body{
+ background-image: url('../img/sahara.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+
+#sidebar{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: #151719;
+    left: -200px;
+    transition: all 500ms linear;
+}
+#sidebar.active{
+   left: 0px;
+}
+#sidebar ul li {
+    list-style: none;
+    padding: 15px 10px;
+    border-bottom: 1px solid #9842b8;
+
+}
+ul li a{
+    color: #FFA500;
+    text-decoration: none;
+    font-weight: bold;
+}
+#sidebar .toggle-btn{
+    position: absolute;
+    left: 230px;
+    top: 20px;
+    cursor: pointer;
+}
+#sidebar .toggle-btn span{
+    display: block;
+    width: 30px;
+    height: 5px;
+    background: #66375c99;
+    margin: 3px 0px;
+}
+/**container**/
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+ background-color: #832b994f;
+}
+
+
+.container .tribal{
+  text-align: center;
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  color: #FFA500;
+}
+.tribal a{
+  padding: 20px;
+  background-color: #0909074D;
+  color: white;
+  border-radius: 15px;
+  text-decoration: none;
+  font-size: 1.6em;
+  font-weight: bold;
+}
+.tribal{
+  line-height: 2;
+}
+.tribal img{
+  width: 200px;
+  padding: 10px;
+  border-radius: 100%;
+  background-color: #bd707700;
+
+}
+.tribal img:hover{
+  -webkit-transform: rotate(360deg);
+  transition: 1.5s ;
+}
+#af .top{
+  width: 200px;
+}
+#af {
+  position : relative ;
+  height:  281px ;
+ margin-right: 192px;
+}
+#af img {
+  position : absolute;
+  right: : 0 ; - webkit - transition : opacity 1s facilité - in - out ; - moz - transition : opacity 1s facilité - in - out ; - o - transition : opacity 1s facilité - in - out ;
+  transition : opacity
+
+
+  1s facilité - in - out ; }
+
+#af img.top:hover {
+  opacity : 0 ; }
+.tribal h1{
+  font-size: 90px;
+  color: #fffffd99;
+  background-size: cover;
+  -moz-background-clip: text;
+	-webkit-background-clip: text;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+.tribal h2{
+  font-size: 2em;
+  color: #fffffd99;
+
+}
+.art1{
+ width: 250px;
+ text-align: center;
+ border: solid 1px;
+ padding: 5px;
+ margin-bottom:  20px;
+ color: black;
+}
+.art1 img{
+  width: 200px;
+  height: 146px;
+}
+.art1 p{
+  line-height: 1.6;
+  color: white;
+}
+.band{
+  float: left;
+  padding: 0 20px;
+}
+.membre .flex img:hover{
+  width: 300px;
+  height: 300px;
+  transition: 0.8s;
+}
+.art1 h3{
+  padding: 10px;
+  background-color:  #483D8B;
+  color: white;
+  font-size: 1.2em;
+}
+.membre h1{
+
+  color: #fffffd99;
+  font-size: 2.3em;
+  padding-bottom:  25px;
+}
+.art{
+  display:flex;
+  justify-content: space-around;
+}
+.flex h2{
+
+  color: #fffffd99;
+  text-align: center;
+  font-size: 2.3em;
+}
+.flex{
+  padding-top: 30px;
+}
+
+.biog{
+  text-align: center;
+  padding: 50px;
+}
+.biog p{
+  line-height: 2;
+  text-align: justify;
+  color: white;
+}
+/*----footer-----*/
+footer{
+ text-align: center;
+ padding-top: 30px;
+ background-color: #832b994f;
+ margin-left: auto;
+ margin-right: auto;
+ max-width: 80%;
+}
+small img{
+  width: 5%;
+  border-radius: 100%;
+}
+small p{
+  color: white;
+}
+footer p{
+  color: white;
+}
+.social a{
+  font-size: 3em;
+  color: white;
+  padding: 5px;
+}
+.social{
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;
+}
+.facebook i:hover{
+  color: #155b9d;
+}
+.twitter i:hover{
+  color: #1a9ec4;
+}
+.insta i:hover{
+  color: #1a9ec4;
+}
+.youtube i:hover{
+  color: red;
+}
+ /*-------a propos-------*/
+
+
+
+/*--------photos---------*/
+
+.photo h1{
+
+  color: #fffffd99;
+  text-align: center;
+  padding-top: 20px;
+  margin: 0em;
+}
+.photo p{
+  text-align: justify;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  line-height: 2;
+}
+
+.video{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
+.barre{
+  font-size: 1.5em;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  margin-top:  60px;
+  padding: 15px;
+  background-color: #0909074D;
+  color: white;
+  border-radius: 15px;
+  font-size: 1.6em;
+
+}
+
+.toolbar{
+  text-align: center;
+  padding-top: 40px;
+  display: none;
+}
+#slider-previous{
+  width: 80px;
+  height: 80px;
+  background-color: #22222280;
+  color: #c7c5bf;
+  font-size: 2em;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#slider-toggle{
+  width: 80px;
+  height: 80px;
+  background-color: #22222280;
+  color:#c7c5bf;
+  font-size: 2em;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#next{
+  width: 80px;
+  height: 80px;
+  background-color: #22222280;
+  color: #c7c5bf;
+  font-size: 2em;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#slider-random{
+  width: 80px;
+  height: 80px;
+  background-color: #22222280;
+  color: #c7c5bf;
+  font-size: 2em;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.slider{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+.cache{
+  display: block;
+}
+
+
+/**EVENEMENT**/
+
+
+.eve1 img{
+
+}
+.eve1{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+  color:white;
+}
+.eve2 img{
+
+}
+.eve2{
+  display: flex;
+  justify-content: space-around;
+  margin-left: -31px;
+  padding-top: 30px;
+  color: white;
+}
+.eve3 img{
+
+}
+.eve3{
+  display: flex;
+  justify-content: space-around;
+  margin-left: -22px;
+  padding-top: 30px;
+  color: white;
+}
+.eve4{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 10px;
+  padding-top: 30px;
+  color: white;
+}
+
+.event h1{
+
+  color: #fffffd99;
+  text-align: center;
+  padding-top: 30px;
+  padding: 10px;
+  margin: 0em;
+}
+.titre a{
+  color: #35f618cc;
+}
+.titre{
+  text-align: end;
+}
+/**CONTACT**/
+.formulaire h2{
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  margin-top: 0;
+}
+legend{
+  color: white;
+}
+.formulaire h3{
+  color: white;
+}
+form{
+  text-align: center;
+}
+fieldset{
+  background-color: #6e00ff4a;
+}
+.btn{
+  margin-top: 20px;
+  padding: 5px;
+}
+.button{
+  padding: 5px;
+  background-color:  #0909074D;
+  font-size: 1.3em;
+  border-radius: 10px;
+  width: 200px;
+  color: white;
+}
+.com{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70%;
+  word-wrap: break-word;
+}
+/**ESPACE PRO**/
+.boocking{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;
+  background-color:  #0909074D;
+  padding: 40px;
+}
+.plan h1{
+  margin-top: 0;
+  text-align: center;
+  color: #fffffd99;
+  padding-top: 30px;
+  padding: 10px;
+}
+.boocking h2{
+  color: #ffffffe3;
+  text-decoration: underline;
+}
+.boocking h3 {
+  color: white ;
+}
+.boocking p{
+  color: white;
+}
+.boocking a{
+  text-decoration: none;
+  color: #35f618cc;
+}
+@media screen and (max-width: 1024px){
+  .tribal h1{
+    font-size: 3em;
+  }
+  .art{
+    flex-direction: column;
+  }
+  .art1{
+    width: 100%;
+    border: none;
+  }
+  .band{
+    float: none;
+    padding: 0 20px;
+  }
+  .art1 img{
+    width: 400px;
+    height: 300px;
+  }
+  .membre .flex img:hover{
+    width: 400px;
+    height: 300px;
+  }
+.photo img{
+  width: 550px;
+}
+.video{
+  flex-direction: column;
+  text-align: center;
+  padding-top: 10px;
+
+}
+.event h1{
+  font-size: 1.6em;
+}
+.event1 {
+  margin-left: 20px;
+}
+.eve1{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+  margin-left: 20px;
+  color:white;
+}
+.titre{
+  margin-right: 20px;
+}
+.event h3{
+  font-size: 1em;
+}
+.event p{
+  font-size: 0.8em;
+}
+.eve2{
+  display: flex;
+  justify-content: space-around;
+  margin-left: -5px;
+  padding-top: 30px;
+  color: white;
+}
+.eve3{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 3px;
+  padding-top: 30px;
+  color: white;
+}
+.eve4{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 27px;
+  padding-top: 30px;
+  color: white;
+}
+.formulaire {
+  text-align: center;
+}
+}
+@media screen and (max-width: 600px){
+  .tribal h1{
+    font-size: 1.5em;
+  }
+  .tribal a{
+    font-size: 0.8em;
+    font-weight: bold;
+  }
+  .tribal h2{
+    font-size: 1.2em;
+  }
+  #sidebar .toggle-btn{
+    left: 210px;
+    position: absolute;
+    top: 20px;
+    cursor: pointer;
+  }
+  .art{
+    flex-direction: column;
+  }
+.art .art1 img{
+    width: 200px;
+    height: 150px;
+  }
+  .art1{
+    width: 100%;
+    border: none;
+  }
+  .band{
+    float: none;
+
+    width: 100%;
+  }
+  .biog p{
+    line-height: 1.4;
+  }
+  .biog h1{
+    font-size: 1.9em;
+  }
+  .flex h2{
+    font-size: 1.9em;
+  }
+  .art1 img{
+    width: 200px;
+    height: 150px;
+  }
+  .membre .flex img:hover{
+    width: 200px;
+    height: 150px;
+  }
+
+.photo img{
+  width: 320px;
+}
+#slider-previous{
+  width: 40px;
+  height: 40px;
+  font-size: 1em;
+}
+#slider-random{
+  width: 40px;
+  height: 40px;
+  font-size: 1em;
+}
+#slider-toggle{
+  width: 40px;
+  height: 40px;
+  font-size: 1em;
+}
+#next{
+  width: 40px;
+  height: 40px;
+  font-size: 1em;
+}
+.barre{
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+.photo h1{
+  font-size: 1.5em;
+}
+.flex h2{
+  font-size: 1.5em;
+}
+.video{
+  flex-direction: column;
+  text-align: center;
+  padding-top: 10px;
+
+}
+.event h1{
+  font-size: 1em;
+}
+.event img{
+  width: 127px;
+  height: 180px;
+}
+.event1 {
+  margin-left: 20px;
+}
+.eve1{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+  margin-left: 20px;
+  color:white;
+}
+.titre{
+  margin-right: 20px;
+}
+.event h3{
+  font-size: 1em;
+}
+.event p{
+  font-size: 0.8em;
+}
+.eve2{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 20px;
+  padding-top: 30px;
+  color: white;
+}
+.eve3{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 21px;
+  padding-top: 30px;
+  color: white;
+}
+.eve4{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 20px;
+  padding-top: 30px;
+  color: white;
+}
+.formulaire {
+  text-align: center;
+}
+form{
+  width: 300px;
+}
+textarea{
+  width: 333px;
+}
+.button{
+  margin-left: 25px;
+}
+.formulaire h2{
+  font-size: 1.2em;
+}
+legend{
+  display: none;
+}
+.boocking h2{
+  font-size: 1.2em;
+}
+.boocking p{
+  font-size: 0.8em;
+}
+.boocking{
+  padding: 3px;
+}
+#af{
+  display: none;
+}
+}
